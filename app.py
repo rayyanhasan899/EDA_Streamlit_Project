@@ -16,7 +16,8 @@ st.set_page_config(
 # APPLICATION TITLE
 # --------------------------------------------------
 st.title("📊 Streamlit-Based Exploratory Data Analysis")
-st.write("Upload a CSV dataset and interactively explore its metadata and attributes.")
+st.markdown("<p style='font-size:28px; color:red;'>Upload a CSV dataset and interactively explore its metadata and attributes.</p>",
+unsafe_allow_html=True)
 
 # --------------------------------------------------
 # SIDEBAR
